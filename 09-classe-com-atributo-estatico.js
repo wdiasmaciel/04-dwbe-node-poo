@@ -5,7 +5,7 @@ class Retangulo {
         this.base = base;
         this.alura = altura;
     }
-    get getContador() { return #contador; }
+    get getContador() { return contador; }
     get area() {
         let resp = parseFloat(base) * parseFloat(altura); 
         return resp.toFixed(2);
