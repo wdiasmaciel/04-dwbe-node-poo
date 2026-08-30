@@ -3,7 +3,7 @@ class Retangulo {
     constructor(base, altura) { 
         Retangulo.contador++; 
         this.base = base;
-        this.alura = altura;
+        this.altura = altura;
     }
     get getContador() { return Retangulo.contador; }
     get area() {
@@ -19,3 +19,7 @@ console.log("Área: " + ret1.area);
 let ret2 = new Retangulo(7, 8);
 console.log("Contador: " + ret2.getContador);
 console.log("Área: " + ret2.area);
+
+let ret3 = new Retangulo(8, 9);
+console.log("Contador: " + ret3.getContador);
+console.log("Área: " + ret3.area);
