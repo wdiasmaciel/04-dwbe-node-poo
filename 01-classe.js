@@ -9,5 +9,5 @@ class Retangulo {
     }
 }
 
-retangulo = new Retangulo(6, 7);
+let retangulo = new Retangulo(6, 7);
 console.log("Área: " + retangulo.area());  
