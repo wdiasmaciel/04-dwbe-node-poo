@@ -141,6 +141,7 @@ Endereço: Rua das Flores, São Paulo - 01000-000
   - Use o módulo `readline` do Node.js para ler os dados informados pelo usuário via teclado.
 
 ```javascript
+// ./util/teclado.js
 import readline from 'node:readline/promises';
 import { stdin as input, stdout as output } from 'node:process';
 
