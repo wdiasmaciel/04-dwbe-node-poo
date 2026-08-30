@@ -1,6 +1,7 @@
 class Retangulo {
     static area(base, altura) {
-        return (parseFloat(base) * parseFloat(altura)).toFixed(2);
+        let resp = parseFloat(base) * parseFloat(altura); 
+        return resp.toFixed(2);
     }
 }
 
