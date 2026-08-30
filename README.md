@@ -142,6 +142,7 @@ Endereço: Rua das Flores, São Paulo - 01000-000
 
 ```javascript
 // ./util/teclado.js
+
 import readline from 'node:readline/promises';
 import { stdin as input, stdout as output } from 'node:process';
 
