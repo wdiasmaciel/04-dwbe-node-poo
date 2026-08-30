@@ -4,7 +4,7 @@ var r1 = new class { //Classe anônima:
         this.altura = altura;
     }
     area() { return this.base * this.altura; }
-}(3, 4); // Instancia um objeto da classe anônima.
+}(6, 7); // Instancia um objeto da classe anônima.
 
 class Ret { //Classe com nome:
     constructor(base, altura) {
@@ -14,7 +14,7 @@ class Ret { //Classe com nome:
     area() { return this.base * this.altura; }
 };
 
-let r2 = new Ret(4, 5); // Instancia um objeto da classe Ret.
+let r2 = new Ret(7, 8); // Instancia um objeto da classe Ret.
 
 console.log("Área do primeiro retângulo: " + r1.area());
 console.log("Área do segundo retângulo: " + r2.area());
