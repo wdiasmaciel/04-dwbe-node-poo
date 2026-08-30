@@ -18,4 +18,4 @@ console.log("Área: " + ret.area());
 ret.setBase(7); 
 ret.setAltura(8);
 console.log("Base: " + ret.getBase() + " Altura: " + ret.getAltura());
-console.log(" Área: " + ret.area());     
+console.log("Área: " + ret.area());     
