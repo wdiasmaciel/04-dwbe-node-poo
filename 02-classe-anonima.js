@@ -13,8 +13,10 @@ var RetanguloComNome = class Ret { //Classe com nome:
     }
     area() { return this.base * this.altura; }
 };
-var r1 = new RetanguloAnonimo(3, 4);
-var r2 = new RetanguloComNome(4, 5);
-//var r3 = new Ret(5, 6); -> ERRO!!!
-document.write("Área do primeiro retângulo: " + r1.area() + "<br>");
-document.write("Área do segundo retângulo: " + r2.area() + "<br>");
+
+let r1 = new RetanguloAnonimo(6, 7);
+let r2 = new RetanguloComNome(7, 8);
+//let r3 = new Ret(8, 9); -> ERRO!!!
+
+console.log("Área do primeiro retângulo: " + r1.area());
+console.log("Área do segundo retângulo: " + r2.area());
