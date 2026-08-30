@@ -13,9 +13,12 @@ class Retangulo {
 }
 
 let ret = new Retangulo(6, 7); 
+console.log("Base: " + ret.getBase());
+console.log("Altura: " + ret.getAltura());
 console.log("Área: " + ret.area());
 
 ret.setBase(7); 
 ret.setAltura(8);
-console.log("Base: " + ret.getBase() + " Altura: " + ret.getAltura());
+console.log("Base: " + ret.getBase());
+console.log("Altura: " + ret.getAltura());
 console.log("Área: " + ret.area());     
