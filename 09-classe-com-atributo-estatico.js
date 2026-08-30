@@ -1,11 +1,11 @@
 class Retangulo {
     static contador = 0;
     constructor(base, altura) { 
-        Retangulo.#contador++; 
+        Retangulo.contador++; 
         this.base = base;
         this.alura = altura;
     }
-    get getContador() { return contador; }
+    get getContador() { return Retangulo.contador; }
     get area() {
         let resp = parseFloat(base) * parseFloat(altura); 
         return resp.toFixed(2);
