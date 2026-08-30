@@ -138,7 +138,7 @@ Endereço: Rua das Flores, São Paulo - 01000-000
 
 - Nesse arquivo, escreva o algoritmo para ler dados a partir do teclado.
 
--- Use o módulo `readline` do Node.js para ler os dados informados pelo usuário via teclado.
+  - Use o módulo `readline` do Node.js para ler os dados informados pelo usuário via teclado.
 
 ```javascript
 import readline from 'node:readline/promises';
