@@ -14,4 +14,4 @@ var ret = new Retangulo();
 ret.setBase = 6; 
 ret.setAltura = 7;
 console.log("Área: " + ret.getArea);
-//console.log("Área: " + ret.#area()); // -> ERRO: acesso indevido a método privado.
+//console.log("Área: " + ret.#area()); // -> ERRO: acesso indevido a método privado.
