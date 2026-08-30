@@ -1,5 +1,7 @@
 # 04-dwbe-node-poo
 
+Analise e execute cada algoritmo desta prática.
+
 Exemplos para executar cada algoritmo rapidamente:
 
 ```bash
