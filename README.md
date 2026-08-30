@@ -133,8 +133,11 @@ Endereço: Rua das Flores, São Paulo - 01000-000
 ### Dica
 
 - Crie uma pasta `util`. 
+
 - Dentro dessa pasta, crie um arquivo `teclado.js` como módulo para ser importado nos arquivos de seus exercícios. 
+
 - Nesse arquivo, escreva o algoritmo para ler dados a partir do teclado.
+
 -- Use o módulo `readline` do Node.js para ler os dados informados pelo usuário via teclado.
 
 ```javascript
